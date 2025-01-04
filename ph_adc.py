@@ -24,7 +24,7 @@ def calculate_ph(voltage, neutral_voltage=2.5, sensitivity=0.17):
     sensitivity=0.18
     return 7.0 - ((voltage - neutral_voltage) / sensitivity)
 
-# Main loop
+
 try:
     while True:
         # Read pH sensor from channel 2
